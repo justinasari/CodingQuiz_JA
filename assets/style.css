@@ -4,3 +4,19 @@
     --textColor: white;
     --backgroundColor: maroon;
 }
+
+#wrapper {
+    display: block;
+    text-align: center;
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
+
+#countdownTimer {
+    text-align: center;
+    padding: 5px;
+}
+
+ul, button, #Submit:hover {
+    cursor: pointer;
+}
